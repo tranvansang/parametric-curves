@@ -1,0 +1,436 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTO_NORMAL	legacygl.js	/^    legacygl.flags = {$/;"	p	class:legacygl.flags
+HTMLCanvasElement	util.js	/^"use strict";$/;"	c
+add_triangles	demo/displist.html	/^function add_triangles() {$/;"	f
+angle2pos	drawutil.js	/^        function angle2pos(theta, phi) {$/;"	f	function:drawutil.sphere
+aspect_ratio	util.js	/^HTMLCanvasElement.prototype.aspect_ratio = function() {$/;"	m	class:HTMLCanvasElement
+bbox.center	boundingbox.js	/^    };$/;"	f
+bbox.diagonal	boundingbox.js	/^    };$/;"	f
+bbox.diagonal_norm	boundingbox.js	/^    };$/;"	f
+bbox.extend	boundingbox.js	/^    bbox.set_empty();$/;"	c
+bbox.is_empty	boundingbox.js	/^    };$/;"	f
+bbox.set_empty	boundingbox.js	/^    var bbox = {};$/;"	c
+bench	numeric-1.2.6.js	/^numeric.bench = function bench (f,interval) {$/;"	f
+buffers	legacygl.js	/^        var drawcall = {$/;"	p	class:legacygl.end.drawcall
+camera.center_to_eye	camera.js	/^    camera.up = [0, 1, 0];$/;"	f
+camera.eye_to_center	camera.js	/^    };$/;"	f
+camera.finish_moving	camera.js	/^    };$/;"	c
+camera.is_moving	camera.js	/^    camera.mode = "none";$/;"	f
+camera.lookAt	camera.js	/^    };$/;"	f
+camera.move	camera.js	/^    };$/;"	f
+camera.right	camera.js	/^    };$/;"	f
+camera.start_moving	camera.js	/^    camera.prevpos = vec2.create();$/;"	c
+colormap	colormap.js	/^var colormap = {};$/;"	v
+colormap._internal	colormap.js	/^var colormap = {};$/;"	f
+colormap.autumn	colormap.js	/^};$/;"	f
+colormap.bone	colormap.js	/^};$/;"	f
+colormap.cool	colormap.js	/^};$/;"	f
+colormap.copper	colormap.js	/^};$/;"	f
+colormap.gray	colormap.js	/^};$/;"	f
+colormap.hot	colormap.js	/^};$/;"	f
+colormap.hsv	colormap.js	/^};$/;"	f
+colormap.jet	colormap.js	/^};$/;"	f
+colormap.parula	colormap.js	/^};$/;"	f
+colormap.pink	colormap.js	/^};$/;"	f
+colormap.spring	colormap.js	/^};$/;"	f
+colormap.summer	colormap.js	/^};$/;"	f
+colormap.winter	colormap.js	/^};$/;"	f
+degree	gl-matrix.js	/^var degree = Math.PI \/ 180;$/;"	v
+draw	demo/displist.html	/^function draw() {$/;"	f
+draw	demo/hello2d.html	/^function draw() {$/;"	f
+draw	demo/hello3d.html	/^function draw() {$/;"	f
+draw	demo/meshviewer.html	/^function draw() {$/;"	f
+draw	demo/pick2d.html	/^function draw() {$/;"	f
+draw	demo/pick3d.html	/^function draw() {$/;"	f
+draw	demo/z-buffer.html	/^function draw() {$/;"	f
+drawutil.circle	drawutil.js	/^    };$/;"	f
+drawutil.cube	drawutil.js	/^    };$/;"	c
+drawutil.quadmesh	drawutil.js	/^    };$/;"	f
+drawutil.sphere	drawutil.js	/^    };$/;"	f
+drawutil.trimesh	drawutil.js	/^    };$/;"	f
+drawutil.xygrid	drawutil.js	/^    };$/;"	f
+drawutil.xyzaxis	drawutil.js	/^    var drawutil = {};$/;"	f
+drawutil.yzgrid	drawutil.js	/^    };$/;"	f
+drawutil.zxgrid	drawutil.js	/^    };$/;"	f
+edge	halfedge.js	/^                face: null,$/;"	p	class:mesh.add_face.make_halfedge.halfedge
+edge.faces	halfedge.js	/^            };$/;"	f
+edge.halfedges	halfedge.js	/^            };$/;"	f
+edge.is_boundary	halfedge.js	/^            };$/;"	f
+edge.vertices	halfedge.js	/^            };$/;"	f
+face	halfedge.js	/^                vertex: null,$/;"	p	class:mesh.add_face.make_halfedge.halfedge
+face.centroid	halfedge.js	/^            };$/;"	c
+face.edges	halfedge.js	/^            };$/;"	f
+face.faces	halfedge.js	/^            };$/;"	f
+face.halfedges	halfedge.js	/^            };$/;"	f
+face.is_boundary	halfedge.js	/^            };$/;"	f
+face.vertices	halfedge.js	/^            };$/;"	f
+fmtnum	numeric-1.2.6.js	/^    function fmtnum(x) {$/;"	f	function:numeric.prettyPrint
+foo	numeric-1.2.6.js	/^    function foo(d) {$/;"	f	function:numeric.parseDate
+foo	numeric-1.2.6.js	/^    function foo(d) {$/;"	f	function:numeric.parseFloat
+foo	numeric-1.2.6.js	/^    function foo(x) {$/;"	f	function:numeric.prettyPrint
+get_camera	camera.js	/^function get_camera(viewport_width) {$/;"	f
+get_drawutil	drawutil.js	/^function get_drawutil(gl, legacygl) {$/;"	f
+get_legacygl	legacygl.js	/^function get_legacygl(gl, vertex_shader_src, fragment_shader_src) {$/;"	f
+get_mousepos	util.js	/^HTMLCanvasElement.prototype.get_mousepos = function(event, flip_y) {$/;"	m	class:HTMLCanvasElement
+glMatrix	gl-matrix.js	/^var glMatrix = {};$/;"	v
+glMatrix.setMatrixArrayType	gl-matrix.js	/^var glMatrix = {};$/;"	f
+glMatrix.toRadian	gl-matrix.js	/^var degree = Math.PI \/ 180;$/;"	f
+glu	glu.js	/^var glu = {};$/;"	v
+glu.ortho2D	glu.js	/^};$/;"	f
+glu.project	glu.js	/^var glu = {};$/;"	f
+glu.unproject	glu.js	/^};$/;"	f
+halfedge	halfedge.js	/^            var edge = {$/;"	p	class:mesh.add_face.make_edge.edge
+halfedge	halfedge.js	/^            var face = {$/;"	p	class:mesh.add_face.make_face.face
+halfedge	halfedge.js	/^            var vertex = {$/;"	p	class:mesh.add_face.make_vertex.vertex
+halfedge.from_vertex	halfedge.js	/^            };$/;"	f
+halfedge.is_boundary	halfedge.js	/^            };$/;"	f
+init	demo/displist.html	/^function init() {$/;"	f
+init	demo/hello2d.html	/^function init() {$/;"	f
+init	demo/hello3d.html	/^function init() {$/;"	f
+init	demo/meshviewer.html	/^function init() {$/;"	f
+init	demo/pick2d.html	/^function init() {$/;"	f
+init	demo/pick3d.html	/^function init() {$/;"	f
+init	demo/z-buffer.html	/^function init() {$/;"	f
+legacygl.add_uniform	legacygl.js	/^    legacygl.uniforms = {};$/;"	c
+legacygl.add_uniform_array	legacygl.js	/^    };$/;"	c
+legacygl.add_vertex_attribute	legacygl.js	/^    legacygl.vertex_attributes = [];$/;"	c
+legacygl.begin	legacygl.js	/^    legacygl.vertex = vertex;$/;"	c
+legacygl.callList	legacygl.js	/^    };$/;"	f
+legacygl.disable	legacygl.js	/^    };$/;"	c
+legacygl.displist_wrapper	legacygl.js	/^    };$/;"	f
+legacygl.enable	legacygl.js	/^    };$/;"	c
+legacygl.end	legacygl.js	/^    };$/;"	f
+legacygl.endList	legacygl.js	/^    };$/;"	c
+legacygl.newList	legacygl.js	/^    legacygl.current_displist_name = null;$/;"	c
+legacygl.set_uniforms	legacygl.js	/^    };$/;"	f
+location	legacygl.js	/^        var uniform = {$/;"	p	class:legacygl.add_uniform.uniform
+location	legacygl.js	/^        var uniform = {$/;"	p	class:legacygl.add_uniform_array.uniform
+make_boundingbox	boundingbox.js	/^function make_boundingbox() {$/;"	f
+make_default_value	legacygl.js	/^        function make_default_value() {$/;"	f	function:legacygl.add_uniform_array
+make_edge	halfedge.js	/^        function make_edge() {$/;"	f	function:mesh.add_face
+make_face	halfedge.js	/^        function make_face() {$/;"	f	function:mesh.add_face
+make_halfedge	halfedge.js	/^        function make_halfedge() {$/;"	f	function:mesh.add_face
+make_halfedge_mesh	halfedge.js	/^function make_halfedge_mesh() {$/;"	f
+make_vertex	halfedge.js	/^        function make_vertex() {$/;"	f	function:mesh.add_face
+mat2	gl-matrix.js	/^var mat2 = {};$/;"	v
+mat2.LDU	gl-matrix.js	/^};$/;"	f
+mat2.adjoint	gl-matrix.js	/^};$/;"	f
+mat2.adjoint_ip	gl-matrix-util.js	/^"use strict";$/;"	f
+mat2.clone	gl-matrix.js	/^};$/;"	f
+mat2.copy	gl-matrix.js	/^};$/;"	f
+mat2.create	gl-matrix.js	/^var mat2 = {};$/;"	f
+mat2.determinant	gl-matrix.js	/^};$/;"	f
+mat2.frob	gl-matrix.js	/^};$/;"	f
+mat2.identity	gl-matrix.js	/^};$/;"	f
+mat2.invert	gl-matrix.js	/^};$/;"	f
+mat2.invert_ip	gl-matrix-util.js	/^mat2.adjoint_ip = function(a) { return mat2.adjoint(a, a); };$/;"	f
+mat2.mul_ip	gl-matrix-util.js	/^mat2.invert_ip = function(a) { return mat2.invert(a, a); };$/;"	f
+mat2.multiply	gl-matrix.js	/^};$/;"	f
+mat2.multiply_ip	gl-matrix-util.js	/^mat2.mul_ip = function(a, b) { return mat2.mul(a, a, b); };$/;"	f
+mat2.rotate	gl-matrix.js	/^mat2.mul = mat2.multiply;$/;"	f
+mat2.rotate_ip	gl-matrix-util.js	/^mat2.multiply_ip = function(a, b) { return mat2.multiply(a, a, b); };$/;"	f
+mat2.scale	gl-matrix.js	/^};$/;"	f
+mat2.scale_ip	gl-matrix-util.js	/^mat2.rotate_ip = function(a, rad) { return mat2.rotate(a, a, rad); };$/;"	f
+mat2.str	gl-matrix.js	/^};$/;"	f
+mat2.translate_ip	gl-matrix-util.js	/^mat2.scale_ip = function(a, v) { return mat2.scale(a, a, v); };$/;"	f
+mat2.transpose	gl-matrix.js	/^};$/;"	f
+mat2.transpose_ip	gl-matrix-util.js	/^mat2.translate_ip = function(a, v) { return mat2.translate(a, a, v); };$/;"	f
+mat2d	gl-matrix.js	/^var mat2d = {};$/;"	v
+mat2d.clone	gl-matrix.js	/^};$/;"	f
+mat2d.copy	gl-matrix.js	/^};$/;"	f
+mat2d.create	gl-matrix.js	/^var mat2d = {};$/;"	f
+mat2d.determinant	gl-matrix.js	/^};$/;"	f
+mat2d.frob	gl-matrix.js	/^};$/;"	f
+mat2d.identity	gl-matrix.js	/^};$/;"	f
+mat2d.invert	gl-matrix.js	/^};$/;"	f
+mat2d.multiply	gl-matrix.js	/^};$/;"	f
+mat2d.rotate	gl-matrix.js	/^mat2d.mul = mat2d.multiply;$/;"	f
+mat2d.scale	gl-matrix.js	/^};$/;"	f
+mat2d.str	gl-matrix.js	/^};$/;"	f
+mat2d.translate	gl-matrix.js	/^};$/;"	f
+mat3	gl-matrix.js	/^var mat3 = {};$/;"	v
+mat3.adjoint	gl-matrix.js	/^};$/;"	f
+mat3.adjoint_ip	gl-matrix-util.js	/^mat2.transpose_ip = function(a) { return mat2.transpose(a, a); };$/;"	f
+mat3.clone	gl-matrix.js	/^};$/;"	f
+mat3.copy	gl-matrix.js	/^};$/;"	f
+mat3.create	gl-matrix.js	/^var mat3 = {};$/;"	f
+mat3.determinant	gl-matrix.js	/^};$/;"	f
+mat3.frob	gl-matrix.js	/^};$/;"	f
+mat3.fromMat2d	gl-matrix.js	/^};$/;"	f
+mat3.fromMat4	gl-matrix.js	/^};$/;"	f
+mat3.fromQuat	gl-matrix.js	/^};$/;"	f
+mat3.identity	gl-matrix.js	/^};$/;"	f
+mat3.invert	gl-matrix.js	/^};$/;"	f
+mat3.invert_ip	gl-matrix-util.js	/^mat3.adjoint_ip = function(a) { return mat3.adjoint(a, a); };$/;"	f
+mat3.mul_ip	gl-matrix-util.js	/^mat3.invert_ip = function(a) { return mat3.invert(a, a); };$/;"	f
+mat3.multiply	gl-matrix.js	/^};$/;"	f
+mat3.multiply_ip	gl-matrix-util.js	/^mat3.mul_ip = function(a, b) { return mat3.mul(a, a, b); };$/;"	f
+mat3.normalFromMat4	gl-matrix.js	/^};$/;"	f
+mat3.rotate	gl-matrix.js	/^};$/;"	f
+mat3.rotate_ip	gl-matrix-util.js	/^mat3.multiply_ip = function(a, b) { return mat3.multiply(a, a, b); };$/;"	f
+mat3.scale	gl-matrix.js	/^};$/;"	f
+mat3.scale_ip	gl-matrix-util.js	/^mat3.rotate_ip = function(a, rad) { return mat3.rotate(a, a, rad); };$/;"	f
+mat3.str	gl-matrix.js	/^};$/;"	f
+mat3.translate	gl-matrix.js	/^mat3.mul = mat3.multiply;$/;"	f
+mat3.translate_ip	gl-matrix-util.js	/^mat3.scale_ip = function(a, v) { return mat3.scale(a, a, v); };$/;"	f
+mat3.transpose	gl-matrix.js	/^};$/;"	f
+mat3.transpose_ip	gl-matrix-util.js	/^mat3.translate_ip = function(a, v) { return mat3.translate(a, a, v); };$/;"	f
+mat4	gl-matrix.js	/^var mat4 = {};$/;"	v
+mat4.adjoint	gl-matrix.js	/^};$/;"	f
+mat4.adjoint_ip	gl-matrix-util.js	/^mat3.transpose_ip = function(a) { return mat3.transpose(a, a); };$/;"	f
+mat4.clone	gl-matrix.js	/^};$/;"	f
+mat4.copy	gl-matrix.js	/^};$/;"	f
+mat4.create	gl-matrix.js	/^var mat4 = {};$/;"	f
+mat4.determinant	gl-matrix.js	/^};$/;"	f
+mat4.frob	gl-matrix.js	/^};$/;"	f
+mat4.fromQuat	gl-matrix.js	/^};$/;"	f
+mat4.fromRotationTranslation	gl-matrix.js	/^};$/;"	f
+mat4.frustum	gl-matrix.js	/^};$/;"	f
+mat4.identity	gl-matrix.js	/^};$/;"	f
+mat4.invert	gl-matrix.js	/^};$/;"	f
+mat4.invert_ip	gl-matrix-util.js	/^mat4.adjoint_ip = function(a) { return mat4.adjoint(a, a); };$/;"	f
+mat4.lookAt	gl-matrix.js	/^};$/;"	f
+mat4.mul_ip	gl-matrix-util.js	/^mat4.invert_ip = function(a) { return mat4.invert(a, a); };$/;"	f
+mat4.multiply	gl-matrix.js	/^};$/;"	f
+mat4.multiply_ip	gl-matrix-util.js	/^mat4.mul_ip = function(a, b) { return mat4.mul(a, a, b); };$/;"	f
+mat4.ortho	gl-matrix.js	/^};$/;"	f
+mat4.ortho2d	gl-matrix-util.js	/^mat4.transpose_ip = function(a) { return mat4.transpose(a, a); };$/;"	f
+mat4.perspective	gl-matrix.js	/^};$/;"	f
+mat4.rotate	gl-matrix.js	/^};$/;"	f
+mat4.rotateX	gl-matrix.js	/^};$/;"	f
+mat4.rotateX_ip	gl-matrix-util.js	/^mat4.rotate_ip = function(a, rad, axis) { return mat4.rotate(a, a, rad, axis); };$/;"	f
+mat4.rotateY	gl-matrix.js	/^};$/;"	f
+mat4.rotateY_ip	gl-matrix-util.js	/^mat4.rotateX_ip = function(a, rad) { return mat4.rotateX(a, a, rad); };$/;"	f
+mat4.rotateZ	gl-matrix.js	/^};$/;"	f
+mat4.rotateZ_ip	gl-matrix-util.js	/^mat4.rotateY_ip = function(a, rad) { return mat4.rotateY(a, a, rad); };$/;"	f
+mat4.rotate_ip	gl-matrix-util.js	/^mat4.multiply_ip = function(a, b) { return mat4.multiply(a, a, b); };$/;"	f
+mat4.scale	gl-matrix.js	/^};$/;"	f
+mat4.scale_ip	gl-matrix-util.js	/^mat4.rotateZ_ip = function(a, rad) { return mat4.rotateZ(a, a, rad); };$/;"	f
+mat4.str	gl-matrix.js	/^};$/;"	f
+mat4.translate	gl-matrix.js	/^mat4.mul = mat4.multiply;$/;"	f
+mat4.translate_ip	gl-matrix-util.js	/^mat4.scale_ip = function(a, v) { return mat4.scale(a, a, v); };$/;"	f
+mat4.transpose	gl-matrix.js	/^};$/;"	f
+mat4.transpose_ip	gl-matrix-util.js	/^mat4.translate_ip = function(a, v) { return mat4.translate(a, a, v); };$/;"	f
+mesh.add_face	halfedge.js	/^    };$/;"	c
+mesh.compute_normals	halfedge.js	/^    };$/;"	c
+mesh.edges_forEach	halfedge.js	/^    };$/;"	f
+mesh.halfedges_forEach	halfedge.js	/^    };$/;"	f
+mesh.init_boundaries	halfedge.js	/^    };$/;"	c
+mesh.init_ids	halfedge.js	/^    };$/;"	c
+mesh.num_edges	halfedge.js	/^    };$/;"	f
+mesh.num_faces	halfedge.js	/^    };$/;"	f
+mesh.num_vertices	halfedge.js	/^    };$/;"	f
+meshio	meshio.js	/^var meshio = {};$/;"	v
+meshio.read	meshio.js	/^};$/;"	f
+meshio.read_obj	meshio.js	/^var meshio = {};$/;"	f
+meshio.read_off	meshio.js	/^};$/;"	f
+meshio.write	meshio.js	/^};$/;"	f
+meshio.write_obj	meshio.js	/^};$/;"	f
+meshio.write_off	meshio.js	/^};$/;"	f
+name	legacygl.js	/^        var vertex_attribute = { name: name, size: size };$/;"	p	class:legacygl.add_vertex_attribute.vertex_attribute
+next	halfedge.js	/^                edge: null,$/;"	p	class:mesh.add_face.make_halfedge.halfedge
+normal	halfedge.js	/^                halfedge: null,$/;"	p	class:mesh.add_face.make_face.face
+normal	halfedge.js	/^                point: null,$/;"	p	class:mesh.add_face.make_vertex.vertex
+numeric.bench	numeric-1.2.6.js	/^numeric.version = "1.2.6";$/;"	f
+numeric.parseDate	numeric-1.2.6.js	/^}$/;"	f
+numeric.parseFloat	numeric-1.2.6.js	/^}$/;"	f
+numeric.prettyPrint	numeric-1.2.6.js	/^numeric.largeArray = 50;$/;"	f
+numeric.zero	numeric-util.js	/^"use strict";$/;"	f
+opposite	halfedge.js	/^                prev: null,$/;"	p	class:mesh.add_face.make_halfedge.halfedge
+parseDate	numeric-1.2.6.js	/^numeric.parseDate = function parseDate(d) {$/;"	f
+parseFloat_	numeric-1.2.6.js	/^numeric.parseFloat = function parseFloat_(d) {$/;"	f
+point	halfedge.js	/^                halfedge: null,$/;"	p	class:mesh.add_face.make_vertex.vertex
+prettyPrint	numeric-1.2.6.js	/^numeric.prettyPrint = function prettyPrint(x) {$/;"	f
+prev	halfedge.js	/^                next: null,$/;"	p	class:mesh.add_face.make_halfedge.halfedge
+quat	gl-matrix.js	/^var quat = {};$/;"	v
+quat.add_ip	gl-matrix-util.js	/^vec4.transformQuat_ip = function(a, q) { return vec4.transformQuat(a, a, q); };$/;"	f
+quat.calculateW	gl-matrix.js	/^};$/;"	f
+quat.calculateW_ip	gl-matrix-util.js	/^quat.add_ip = function(a, b) { return quat.add(a, a, b); };$/;"	f
+quat.conjugate	gl-matrix.js	/^};$/;"	f
+quat.conjugate_ip	gl-matrix-util.js	/^quat.calculateW_ip = function(a) { return quat.calculateW(a, a); };$/;"	f
+quat.create	gl-matrix.js	/^var quat = {};$/;"	f
+quat.fromMat3	gl-matrix.js	/^quat.normalize = vec4.normalize;$/;"	f
+quat.identity	gl-matrix.js	/^quat.set = vec4.set;$/;"	f
+quat.invert	gl-matrix.js	/^};$/;"	f
+quat.invert_ip	gl-matrix-util.js	/^quat.conjugate_ip = function(a) { return quat.conjugate(a, a); };$/;"	f
+quat.lerp_ip	gl-matrix-util.js	/^quat.invert_ip = function(a) { return quat.invert(a, a); };$/;"	f
+quat.mul_ip	gl-matrix-util.js	/^quat.lerp_ip = function(a, b, t) { return quat.lerp(a, a, b, t); };$/;"	f
+quat.multiply	gl-matrix.js	/^quat.add = vec4.add;$/;"	f
+quat.multiply_ip	gl-matrix-util.js	/^quat.mul_ip = function(a, b) { return quat.mul(a, a, b); };$/;"	f
+quat.normalize_ip	gl-matrix-util.js	/^quat.multiply_ip = function(a, b) { return quat.multiply(a, a, b); };$/;"	f
+quat.rotateX	gl-matrix.js	/^quat.scale = vec4.scale;$/;"	f
+quat.rotateX_ip	gl-matrix-util.js	/^quat.normalize_ip = function(a) { return quat.normalize(a, a); };$/;"	f
+quat.rotateY	gl-matrix.js	/^};$/;"	f
+quat.rotateY_ip	gl-matrix-util.js	/^quat.rotateX_ip = function(a, rad) { return quat.rotateX(a, a, rad); };$/;"	f
+quat.rotateZ	gl-matrix.js	/^};$/;"	f
+quat.rotateZ_ip	gl-matrix-util.js	/^quat.rotateY_ip = function(a, rad) { return quat.rotateY(a, a, rad); };$/;"	f
+quat.scale_ip	gl-matrix-util.js	/^quat.rotateZ_ip = function(a, rad) { return quat.rotateZ(a, a, rad); };$/;"	f
+quat.setAxisAngle	gl-matrix.js	/^};$/;"	f
+quat.slerp	gl-matrix.js	/^quat.lerp = vec4.lerp;$/;"	f
+quat.slerp_ip	gl-matrix-util.js	/^quat.scale_ip = function(a, b) { return quat.scale(a, a, b); };$/;"	f
+quat.str	gl-matrix.js	/^};$/;"	f
+read_mesh	demo/meshviewer.html	/^    function read_mesh(filename, content) {$/;"	f
+read_texture	demo/meshviewer.html	/^    function read_texture(dataurl) {$/;"	f
+shim	gl-matrix.js	/^  var shim = {};$/;"	v
+size	legacygl.js	/^        var vertex_attribute = { name: name, size: size };$/;"	p	class:legacygl.add_vertex_attribute.vertex_attribute
+uniform.pop	legacygl.js	/^        };$/;"	c
+uniform.push	legacygl.js	/^        uniform.stack = [];$/;"	c
+vec2	gl-matrix.js	/^var vec2 = {};$/;"	v
+vec2.add	gl-matrix.js	/^};$/;"	f
+vec2.add_ip	gl-matrix-util.js	/^mat4.ortho2d = function(a, left, right, bottom, top) { return mat4.ortho(a, left, right, bottom, top, -1, 1); };$/;"	f
+vec2.clone	gl-matrix.js	/^};$/;"	f
+vec2.copy	gl-matrix.js	/^};$/;"	f
+vec2.create	gl-matrix.js	/^var vec2 = {};$/;"	f
+vec2.cross	gl-matrix.js	/^};$/;"	f
+vec2.distance	gl-matrix.js	/^};$/;"	f
+vec2.div_ip	gl-matrix-util.js	/^vec2.add_ip = function(a, b) { return vec2.add(a, a, b); };$/;"	f
+vec2.divide	gl-matrix.js	/^vec2.mul = vec2.multiply;$/;"	f
+vec2.divide_ip	gl-matrix-util.js	/^vec2.div_ip = function(a, b) { return vec2.div(a, a, b); };$/;"	f
+vec2.dot	gl-matrix.js	/^};$/;"	f
+vec2.fromValues	gl-matrix.js	/^};$/;"	f
+vec2.inverse	gl-matrix.js	/^};$/;"	f
+vec2.length	gl-matrix.js	/^vec2.sqrDist = vec2.squaredDistance;$/;"	f
+vec2.lerp	gl-matrix.js	/^};$/;"	f
+vec2.lerp_ip	gl-matrix-util.js	/^vec2.divide_ip = function(a, b) { return vec2.divide(a, a, b); };$/;"	f
+vec2.max	gl-matrix.js	/^};$/;"	f
+vec2.max_ip	gl-matrix-util.js	/^vec2.lerp_ip = function(a, b, t) { return vec2.lerp(a, a, b, t); };$/;"	f
+vec2.min	gl-matrix.js	/^vec2.div = vec2.divide;$/;"	f
+vec2.min_ip	gl-matrix-util.js	/^vec2.max_ip = function(a, b) { return vec2.max(a, a, b); };$/;"	f
+vec2.mul_ip	gl-matrix-util.js	/^vec2.min_ip = function(a, b) { return vec2.min(a, a, b); };$/;"	f
+vec2.multiply	gl-matrix.js	/^vec2.sub = vec2.subtract;$/;"	f
+vec2.multiply_ip	gl-matrix-util.js	/^vec2.mul_ip = function(a, b) { return vec2.mul(a, a, b); };$/;"	f
+vec2.negate	gl-matrix.js	/^vec2.sqrLen = vec2.squaredLength;$/;"	f
+vec2.negate_ip	gl-matrix-util.js	/^vec2.multiply_ip = function(a, b) { return vec2.multiply(a, a, b); };$/;"	f
+vec2.normalize	gl-matrix.js	/^};$/;"	f
+vec2.normalize_ip	gl-matrix-util.js	/^vec2.negate_ip = function(a) { return vec2.negate(a, a); };$/;"	f
+vec2.random	gl-matrix.js	/^};$/;"	f
+vec2.scale	gl-matrix.js	/^};$/;"	f
+vec2.scaleAndAdd	gl-matrix.js	/^};$/;"	f
+vec2.scaleAndAdd_ip	gl-matrix-util.js	/^vec2.scale_ip = function(a, b) { return vec2.scale(a, a, b); };$/;"	f
+vec2.scale_ip	gl-matrix-util.js	/^vec2.normalize_ip = function(a) { return vec2.normalize(a, a); };$/;"	f
+vec2.set	gl-matrix.js	/^};$/;"	f
+vec2.squaredDistance	gl-matrix.js	/^vec2.dist = vec2.distance;$/;"	f
+vec2.squaredLength	gl-matrix.js	/^vec2.len = vec2.length;$/;"	f
+vec2.str	gl-matrix.js	/^})();$/;"	f
+vec2.sub_ip	gl-matrix-util.js	/^vec2.scaleAndAdd_ip = function(a, b, scale) { return vec2.scaleAndAdd(a, a, b, scale); };$/;"	f
+vec2.subtract	gl-matrix.js	/^};$/;"	f
+vec2.subtract_ip	gl-matrix-util.js	/^vec2.sub_ip = function(a, b) { return vec2.sub(a, a, b); };$/;"	f
+vec2.transformMat2	gl-matrix.js	/^};$/;"	f
+vec2.transformMat2_ip	gl-matrix-util.js	/^vec2.subtract_ip = function(a, b) { return vec2.subtract(a, a, b); };$/;"	f
+vec2.transformMat2d	gl-matrix.js	/^};$/;"	f
+vec2.transformMat2d_ip	gl-matrix-util.js	/^vec2.transformMat2_ip = function(a, m) { return vec2.transformMat2(a, a, m); };$/;"	f
+vec2.transformMat3	gl-matrix.js	/^};$/;"	f
+vec2.transformMat3_ip	gl-matrix-util.js	/^vec2.transformMat2d_ip = function(a, m) { return vec2.transformMat2d(a, a, m); };$/;"	f
+vec2.transformMat4	gl-matrix.js	/^};$/;"	f
+vec2.transformMat4_ip	gl-matrix-util.js	/^vec2.transformMat3_ip = function(a, m) { return vec2.transformMat3(a, a, m); };$/;"	f
+vec3	gl-matrix.js	/^var vec3 = {};$/;"	v
+vec3.add	gl-matrix.js	/^};$/;"	f
+vec3.add_ip	gl-matrix-util.js	/^vec2.transformMat4_ip = function(a, m) { return vec2.transformMat4(a, a, m); };$/;"	f
+vec3.angle	gl-matrix.js	/^})();$/;"	f
+vec3.clone	gl-matrix.js	/^};$/;"	f
+vec3.copy	gl-matrix.js	/^};$/;"	f
+vec3.create	gl-matrix.js	/^var vec3 = {};$/;"	f
+vec3.cross	gl-matrix.js	/^};$/;"	f
+vec3.cross_ip	gl-matrix-util.js	/^vec3.add_ip = function(a, b) { return vec3.add(a, a, b); };$/;"	f
+vec3.distance	gl-matrix.js	/^};$/;"	f
+vec3.div_ip	gl-matrix-util.js	/^vec3.cross_ip = function(a, b) { return vec3.cross(a, a, b); };$/;"	f
+vec3.divide	gl-matrix.js	/^vec3.mul = vec3.multiply;$/;"	f
+vec3.divide_ip	gl-matrix-util.js	/^vec3.div_ip = function(a, b) { return vec3.div(a, a, b); };$/;"	f
+vec3.dot	gl-matrix.js	/^};$/;"	f
+vec3.fromValues	gl-matrix.js	/^};$/;"	f
+vec3.inverse	gl-matrix.js	/^};$/;"	f
+vec3.length	gl-matrix.js	/^vec3.sqrDist = vec3.squaredDistance;$/;"	f
+vec3.lerp	gl-matrix.js	/^};$/;"	f
+vec3.lerp_ip	gl-matrix-util.js	/^vec3.divide_ip = function(a, b) { return vec3.divide(a, a, b); };$/;"	f
+vec3.max	gl-matrix.js	/^};$/;"	f
+vec3.max_ip	gl-matrix-util.js	/^vec3.lerp_ip = function(a, b, t) { return vec3.lerp(a, a, b, t); };$/;"	f
+vec3.min	gl-matrix.js	/^vec3.div = vec3.divide;$/;"	f
+vec3.min_ip	gl-matrix-util.js	/^vec3.max_ip = function(a, b) { return vec3.max(a, a, b); };$/;"	f
+vec3.mul_ip	gl-matrix-util.js	/^vec3.min_ip = function(a, b) { return vec3.min(a, a, b); };$/;"	f
+vec3.multiply	gl-matrix.js	/^vec3.sub = vec3.subtract;$/;"	f
+vec3.multiply_ip	gl-matrix-util.js	/^vec3.mul_ip = function(a, b) { return vec3.mul(a, a, b); };$/;"	f
+vec3.negate	gl-matrix.js	/^vec3.sqrLen = vec3.squaredLength;$/;"	f
+vec3.negate_ip	gl-matrix-util.js	/^vec3.multiply_ip = function(a, b) { return vec3.multiply(a, a, b); };$/;"	f
+vec3.normalize	gl-matrix.js	/^};$/;"	f
+vec3.normalize_ip	gl-matrix-util.js	/^vec3.negate_ip = function(a) { return vec3.negate(a, a); };$/;"	f
+vec3.random	gl-matrix.js	/^};$/;"	f
+vec3.rotateX	gl-matrix.js	/^};$/;"	f
+vec3.rotateY	gl-matrix.js	/^};$/;"	f
+vec3.rotateZ	gl-matrix.js	/^};$/;"	f
+vec3.scale	gl-matrix.js	/^};$/;"	f
+vec3.scaleAndAdd	gl-matrix.js	/^};$/;"	f
+vec3.scaleAndAdd_ip	gl-matrix-util.js	/^vec3.scale_ip = function(a, b) { return vec3.scale(a, a, b); };$/;"	f
+vec3.scale_ip	gl-matrix-util.js	/^vec3.normalize_ip = function(a) { return vec3.normalize(a, a); };$/;"	f
+vec3.set	gl-matrix.js	/^};$/;"	f
+vec3.squaredDistance	gl-matrix.js	/^vec3.dist = vec3.distance;$/;"	f
+vec3.squaredLength	gl-matrix.js	/^vec3.len = vec3.length;$/;"	f
+vec3.str	gl-matrix.js	/^};$/;"	f
+vec3.sub_ip	gl-matrix-util.js	/^vec3.scaleAndAdd_ip = function(a, b, scale) { return vec3.scaleAndAdd(a, a, b, scale); };$/;"	f
+vec3.subtract	gl-matrix.js	/^};$/;"	f
+vec3.subtract_ip	gl-matrix-util.js	/^vec3.sub_ip = function(a, b) { return vec3.sub(a, a, b); };$/;"	f
+vec3.transformMat3	gl-matrix.js	/^};$/;"	f
+vec3.transformMat3_ip	gl-matrix-util.js	/^vec3.subtract_ip = function(a, b) { return vec3.subtract(a, a, b); };$/;"	f
+vec3.transformMat4	gl-matrix.js	/^};$/;"	f
+vec3.transformMat4_ip	gl-matrix-util.js	/^vec3.transformMat3_ip = function(a, m) { return vec3.transformMat3(a, a, m); };$/;"	f
+vec3.transformQuat	gl-matrix.js	/^};$/;"	f
+vec3.transformQuat_ip	gl-matrix-util.js	/^vec3.transformMat4_ip = function(a, m) { return vec3.transformMat4(a, a, m); };$/;"	f
+vec4	gl-matrix.js	/^var vec4 = {};$/;"	v
+vec4.add	gl-matrix.js	/^};$/;"	f
+vec4.add_ip	gl-matrix-util.js	/^vec3.transformQuat_ip = function(a, q) { return vec3.transformQuat(a, a, q); };$/;"	f
+vec4.clone	gl-matrix.js	/^};$/;"	f
+vec4.copy	gl-matrix.js	/^};$/;"	f
+vec4.create	gl-matrix.js	/^var vec4 = {};$/;"	f
+vec4.distance	gl-matrix.js	/^};$/;"	f
+vec4.div_ip	gl-matrix-util.js	/^vec4.add_ip = function(a, b) { return vec4.add(a, a, b); };$/;"	f
+vec4.divide	gl-matrix.js	/^vec4.mul = vec4.multiply;$/;"	f
+vec4.divide_ip	gl-matrix-util.js	/^vec4.div_ip = function(a, b) { return vec4.div(a, a, b); };$/;"	f
+vec4.dot	gl-matrix.js	/^};$/;"	f
+vec4.fromValues	gl-matrix.js	/^};$/;"	f
+vec4.inverse	gl-matrix.js	/^};$/;"	f
+vec4.length	gl-matrix.js	/^vec4.sqrDist = vec4.squaredDistance;$/;"	f
+vec4.lerp	gl-matrix.js	/^};$/;"	f
+vec4.lerp_ip	gl-matrix-util.js	/^vec4.divide_ip = function(a, b) { return vec4.divide(a, a, b); };$/;"	f
+vec4.max	gl-matrix.js	/^};$/;"	f
+vec4.max_ip	gl-matrix-util.js	/^vec4.lerp_ip = function(a, b, t) { return vec4.lerp(a, a, b, t); };$/;"	f
+vec4.min	gl-matrix.js	/^vec4.div = vec4.divide;$/;"	f
+vec4.min_ip	gl-matrix-util.js	/^vec4.max_ip = function(a, b) { return vec4.max(a, a, b); };$/;"	f
+vec4.mul_ip	gl-matrix-util.js	/^vec4.min_ip = function(a, b) { return vec4.min(a, a, b); };$/;"	f
+vec4.multiply	gl-matrix.js	/^vec4.sub = vec4.subtract;$/;"	f
+vec4.multiply_ip	gl-matrix-util.js	/^vec4.mul_ip = function(a, b) { return vec4.mul(a, a, b); };$/;"	f
+vec4.negate	gl-matrix.js	/^vec4.sqrLen = vec4.squaredLength;$/;"	f
+vec4.negate_ip	gl-matrix-util.js	/^vec4.multiply_ip = function(a, b) { return vec4.multiply(a, a, b); };$/;"	f
+vec4.normalize	gl-matrix.js	/^};$/;"	f
+vec4.normalize_ip	gl-matrix-util.js	/^vec4.negate_ip = function(a) { return vec4.negate(a, a); };$/;"	f
+vec4.random	gl-matrix.js	/^};$/;"	f
+vec4.scale	gl-matrix.js	/^};$/;"	f
+vec4.scaleAndAdd	gl-matrix.js	/^};$/;"	f
+vec4.scaleAndAdd_ip	gl-matrix-util.js	/^vec4.scale_ip = function(a, b) { return vec4.scale(a, a, b); };$/;"	f
+vec4.scale_ip	gl-matrix-util.js	/^vec4.normalize_ip = function(a) { return vec4.normalize(a, a); };$/;"	f
+vec4.set	gl-matrix.js	/^};$/;"	f
+vec4.squaredDistance	gl-matrix.js	/^vec4.dist = vec4.distance;$/;"	f
+vec4.squaredLength	gl-matrix.js	/^vec4.len = vec4.length;$/;"	f
+vec4.str	gl-matrix.js	/^})();$/;"	f
+vec4.sub_ip	gl-matrix-util.js	/^vec4.scaleAndAdd_ip = function(a, b, scale) { return vec4.scaleAndAdd(a, a, b, scale); };$/;"	f
+vec4.subtract	gl-matrix.js	/^};$/;"	f
+vec4.subtract_ip	gl-matrix-util.js	/^vec4.sub_ip = function(a, b) { return vec4.sub(a, a, b); };$/;"	f
+vec4.transformMat4	gl-matrix.js	/^};$/;"	f
+vec4.transformMat4_ip	gl-matrix-util.js	/^vec4.subtract_ip = function(a, b) { return vec4.subtract(a, a, b); };$/;"	f
+vec4.transformQuat	gl-matrix.js	/^};$/;"	f
+vec4.transformQuat_ip	gl-matrix-util.js	/^vec4.transformMat4_ip = function(a, m) { return vec4.transformMat4(a, a, m); };$/;"	f
+verify_filename_extension	util.js	/^function verify_filename_extension(filename, supported_extensions) {$/;"	f
+vertex	halfedge.js	/^            var halfedge = {$/;"	p	class:mesh.add_face.make_halfedge.halfedge
+vertex	legacygl.js	/^    function vertex(x, y, z) {$/;"	f	function:get_legacygl
+vertex.edges	halfedge.js	/^            };$/;"	f
+vertex.faces	halfedge.js	/^            };$/;"	c
+vertex.incoming_halfedges	halfedge.js	/^            };$/;"	f
+vertex.is_boundary	halfedge.js	/^            };$/;"	f
+vertex.outgoing_halfedges	halfedge.js	/^            };$/;"	f
+vertex.vertices	halfedge.js	/^            };$/;"	f
+vertices	halfedge.js	/^    var mesh = {$/;"	p	class:make_halfedge_mesh.mesh
+wrapper.draw	legacygl.js	/^        wrapper.is_valid = false;$/;"	f
+wrapper.invalidate	legacygl.js	/^        };$/;"	c
